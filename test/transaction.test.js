@@ -8,7 +8,7 @@ var Transaction = require('../index').Transaction;
 var expect = require('chai').expect;
 var testConnector = require('./connectors/test-sql-connector');
 
-var juggler = require('loopback-datasource-juggler');
+var juggler = require('loopback-datasource-jugglernext');
 var db, Post, Review;
 describe('transactions', function() {
   before(function(done) {

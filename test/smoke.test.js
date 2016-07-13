@@ -6,7 +6,7 @@
 var assert = require('assert');
 var connector = require('../');
 
-describe('loopback-connector', function() {
+describe('loopback-connectornext', function() {
   it('exports Connector', function() {
     assert(connector.Connector);
   });

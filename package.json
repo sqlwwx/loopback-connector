@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector",
+  "name": "loopback-connectornext",
   "version": "2.4.0",
   "description": "Building blocks for LoopBack connectors",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/loopback-connector"
+    "url": "git+https://github.com/sqlwwx/loopback-connector"
   },
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "chai": "~2.3.0",
     "eslint": "^2.7.0",
     "eslint-config-loopback": "^1.0.0",
-    "loopback-datasource-juggler": "^2.29.0",
+    "loopback-datasource-jugglernext": "^2.29.0",
     "mocha": "^2.2.5"
   }
 }

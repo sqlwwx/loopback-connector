@@ -8,7 +8,7 @@ var SQLConnector = require('../lib/sql');
 var ParameterizedSQL = SQLConnector.ParameterizedSQL;
 var testConnector = require('./connectors/test-sql-connector');
 
-var juggler = require('loopback-datasource-juggler');
+var juggler = require('loopback-datasource-jugglernext');
 var ds = new juggler.DataSource({
   connector: testConnector,
   debug: true,
